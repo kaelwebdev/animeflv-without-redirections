@@ -15,3 +15,4 @@ While the plugin is activated it blocks any unwanted redirects.
 
 That is, it will block those that do not match the domain https://www3.animeflv.net/
 
+# animeflv-without-redirections
