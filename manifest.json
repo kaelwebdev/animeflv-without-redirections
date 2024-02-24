@@ -1,0 +1,29 @@
+{
+    "name": "animeflv without redirections",
+    "version": "0.1",
+    "description": "This plugin will block redirects that do not belong to https://www3.animeflv.net/",
+    "manifest_version": 3,
+    "permissions": [
+      "tabs",
+      "webNavigation",
+      "declarativeNetRequest",
+      "scripting",
+      "activeTab",
+      "webRequest",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "host_permissions": [
+      "https://www3.animeflv.net/"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "128": "icon128.png"
+    }
+  }
+  
