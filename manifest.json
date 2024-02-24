@@ -4,12 +4,8 @@
     "description": "This plugin will block redirects that do not belong to https://www3.animeflv.net/",
     "manifest_version": 3,
     "permissions": [
-      "tabs",
       "webNavigation",
       "declarativeNetRequest",
-      "scripting",
-      "activeTab",
-      "webRequest",
       "storage"
     ],
     "background": {
